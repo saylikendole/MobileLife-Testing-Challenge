@@ -1,0 +1,8 @@
+Feature: As a Existing user I should see my purchase approvals
+
+Scenario:See purchase approvals
+   Given I login with correct credentials
+   When I click on Menu Button
+   And I click on Mine købsgodkendelser
+   And I check I have accepted terms and condition checkbox
+   Then LogInd med NemID button should get active to click
